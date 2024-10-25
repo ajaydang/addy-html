@@ -1,0 +1,16 @@
+.dashboard {
+	&__layout {
+		display: flex;
+		justify-content: space-between;
+		gap: 24px;
+	}
+
+	&__body {
+		width: 100%;
+		border-top-right-radius: 24px;
+		border-top-left-radius: 24px;
+		background-color: white;
+		padding: 32px;
+		display: block;
+	}
+}

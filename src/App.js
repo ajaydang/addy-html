@@ -1,7 +1,7 @@
-/* eslint-disable react/react-in-jsx-scope */
+import React from 'react';
+import Dashboard from './pages/dashboard/Dashboard';
 import './scss/main.scss';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Dashboard from './pages/dashboard/Dashboard.tsx';
 
 function App() {
 	return (

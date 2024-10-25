@@ -1,0 +1,40 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 94px;
+
+	&-menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 914px;
+
+		&__header {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		&__footer {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		&__link {
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 25.6px;
+			color: black;
+			padding: 13px;
+			border-radius: 12px;
+
+			&:hover {
+				font-weight: 700;
+				background-color: #5a43a7;
+				color: white;
+			}
+		}
+	}
+}
